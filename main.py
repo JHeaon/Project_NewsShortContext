@@ -33,10 +33,14 @@ def run():
         pass
     
 
-time_list = [str(i).zfill(2) + ":00" for i in range(25)]
+def schedule_main():
+    time_list = [str(i).zfill(2) + ":00" for i in range(25)]
 
-for time in time_list:
-    schedule.every().day.at(time).do(run)
+    for time in time_list:
+        schedule.every().day.at(time).do(run)
 
-while True:
-    schedule.run_pending()
+    while True:
+        schedule.run_pending()
+        
+        
+schedule_main()
