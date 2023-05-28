@@ -37,4 +37,4 @@ CHAT_ID=[telegram에서 사용할 챗 id]
 
 ## Reference
 
-- Naver_Blog : https://blog.naver.com/j3heawon/22311336917
+- Naver_Blog : [https://blog.naver.com/j3heawon/22311336917](https://blog.naver.com/j3heawon/223113369171)
